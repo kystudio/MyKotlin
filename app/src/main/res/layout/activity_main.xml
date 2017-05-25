@@ -19,7 +19,7 @@
         android:id="@+id/userNameText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="账号名" />
+        android:hint="账户名" />
 
     <EditText
         android:id="@+id/passwordText"

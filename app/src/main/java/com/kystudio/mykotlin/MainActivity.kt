@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // 获取焦点
+        userNameText.requestFocus()
+
         // 登录
         loginBtn.setOnClickListener {
             //textView.text = "Heloo,Kotlin!!!"
@@ -32,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             passwordText.setText("")
             userNameText.hint="账户名"
             passwordText.hint="密码"
+            userNameText.requestFocus()
         }
     }
 
